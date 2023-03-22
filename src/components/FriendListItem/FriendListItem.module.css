@@ -1,26 +1,16 @@
-.item {
-  display: flex;
-  align-items: center;
-  gap:10px;
-  width: auto;
-  background: rgb(224, 216, 216);
-  padding: 8px 20px;
-  margin-bottom: 30px;
-  box-shadow: 5px 2px 5px rgb(155, 149, 149);
-}
+
 
 span.true {
   display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-
   background-color: green;
 }
 span.false {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: red;
 }

@@ -5,3 +5,13 @@
     width: 400px;
     
 }
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    background: rgb(224, 216, 216);
+    padding: 8px 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 2px 5px rgb(155, 149, 149);
+}
