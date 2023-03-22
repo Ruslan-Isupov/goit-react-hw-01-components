@@ -1,7 +1,7 @@
 import css from "./FriendListItem.module.css"
 import PropTypes from "prop-types";
 export const FriendListItem = ({  avatar, name, isOnline }) => {
-  // let status = isOnline.toString()
+  
  
   return <>
   <span className={isOnline? css.true : css.false}></span>
@@ -18,5 +18,5 @@ FriendListItem.propTypes = {
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.number.isRequired,
+  
 };

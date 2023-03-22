@@ -17,7 +17,7 @@ export const TransactionHistory = ({ transactions }) => {
 
           <Transaction
             
-            id={transaction.id}
+            
             type={transaction.type}
             amount={transaction.amount}
             currency={transaction.currency}

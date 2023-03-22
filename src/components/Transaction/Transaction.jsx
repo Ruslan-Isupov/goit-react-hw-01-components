@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-export const Transaction = ({ id, type, amount, currency }) => {
+export const Transaction = ({  type, amount, currency }) => {
   return (
     <tr>
       <td>{type}</td>
