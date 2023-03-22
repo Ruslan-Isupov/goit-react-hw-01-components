@@ -1,0 +1,7 @@
+.tbody{
+   text-align: center;
+    height: 50px;
+}
+.tbody:nth-child(2n){
+background-color: #b0e6ff;
+}
